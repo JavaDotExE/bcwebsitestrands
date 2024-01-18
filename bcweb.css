@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+head{
+    text-align: center;
+}
+
+#all{
+    width: 1200px;
+    height: 2000px;
+    background-color: white;
+    margin:auto;
+}
+
+nav {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 70, 126);
+    padding-inline: auto 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 0;
+}
+
+.strand-navbar {
+    align-items: center;
+    justify-content: center;
+    
+}
+
+button {
+    height: 40px;
+    width:250px;
+    font-size: 19;
+    border: none;
+    transition-property: background-color;
+    transition-duration: .1s;
+    background-color: rgb(43,101, 181);
+    transition-property: color;
+    color: rgb(221, 225, 255);
+}
+
+button:hover {
+    display: inline-block;
+    background-color: rgb(29, 68, 123);
+    color: rgb(172, 196, 230);
+}
+
+h1 {
+    font-size: 50;
+}
+body {
+    background-image: url(https://static.wixstatic.com/media/a1feb1_b3f78fdf78fc4d6d8592d03696225a90~mv2.jpg/v1/fill/w_980,h_690,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/a1feb1_b3f78fdf78fc4d6d8592d03696225a90~mv2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.strndcontent {
+    text-align: center;
+}
